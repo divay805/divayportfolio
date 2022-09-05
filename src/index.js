@@ -13,7 +13,7 @@ const github=document.getElementById("github")
 
 const navitems=document.querySelectorAll(".navbar li p");
 const page3=document.querySelector(".page2")
-const form=document.getElementsByTagName("form");
+const form=document.querySelector(".form");
 navitems[0].addEventListener("click",()=>{
     console.log("i am clicked");
     const toScroll=page3.offsetTop;
